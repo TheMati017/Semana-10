@@ -1,0 +1,9 @@
+## Copia este archivo como local.properties (que está en .gitignore) y completa tus valores.
+## NUNCA subas local.properties al repositorio.
+
+# Clave de "Maps SDK for Android" (Google Cloud Console).
+# Restríngela por nombre de paquete (com.example.semana9) y huella SHA-1.
+MAPS_API_KEY=TU_API_KEY_AQUI
+
+# Ruta del SDK (Android Studio la completa automáticamente)
+# sdk.dir=/ruta/al/Android/sdk

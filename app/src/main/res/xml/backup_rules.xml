@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Reglas de backup para API 30 y anteriores (android:fullBackupContent).
+   La app ya declara allowBackup="false"; estas reglas son defensa en profundidad por si
+   alguien vuelve a activarlo: la base de datos (hashes de contraseña), las preferencias
+   (sesión) y los archivos internos (fotos) NUNCA deben salir del dispositivo.
+-->
+<full-backup-content>
+    <exclude domain="database" path="." />
+    <exclude domain="sharedpref" path="." />
+    <exclude domain="file" path="." />
+</full-backup-content>
